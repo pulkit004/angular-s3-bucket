@@ -42,7 +42,7 @@ export class AppComponent {
   uploadFile(event: Event) {
     event.preventDefault();
 
-    if(this.fileDataUri.length > 0){
+    if(this.fileDataUri.length > 0) {
       const base64File = this.fileDataUri.split(',')[1];
 
       // console.log(base64File);

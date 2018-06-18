@@ -11,9 +11,6 @@
     #fileInput
   >
 
-  <button
-  type="submit"
-  [disabled]="fileDataUri === 0"
-  >Upload</button>
+  <button type="submit" [disabled]="fileDataUri.length === 0">Upload</button>
 
 </form>
